@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
+import Image from 'next/image'; // Importer le composant Image
 
 const SingleBanner5 = ({ banner }) => {
-    const { thumb, subTitle, title1, title2, btnText, shape, videoId } = banner
+    const { thumb, subTitle, title1, title2, btnText, shape, videoId } = banner;
 
     const [isOpen, setOpen] = useState(false);
 
@@ -26,7 +27,12 @@ const SingleBanner5 = ({ banner }) => {
                 </div>
             </div>
             <div className="banner-shape-bg">
-                <img src={`/assets/img/shape/${shape}`} alt="Shape" />
+                <Image 
+                    src={`/assets/img/shape/${shape}`} 
+                    alt="Shape" 
+                    width={500} // Remplacez avec la largeur appropriée
+                    height={300} // Remplacez avec la hauteur appropriée
+                />
             </div>
         </>
     );

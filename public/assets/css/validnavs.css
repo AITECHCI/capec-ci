@@ -2660,7 +2660,7 @@ nav.validnavs.navbar-full .navbar-toggle:hover span {
 	}
 }
 
-.navbar.nav-full-width .navbar-header .logo-light {
+.navbar.nav-full-width .navbar-header .logo {
 	display: none;
 }
 
@@ -2669,7 +2669,7 @@ nav.validnavs.navbar-full .navbar-toggle:hover span {
 		display: none;
 	}
 
-	.navbar.nav-full-width .navbar-header .logo-light {
+	.navbar.nav-full-width .navbar-header .logo {
 		display: inline-block;
 	}
 }

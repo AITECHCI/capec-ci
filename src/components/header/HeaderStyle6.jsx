@@ -6,8 +6,8 @@ import Image from 'next/image';
 import useStickyMenu from '../hooks/useStickyMenu';
 import useSubMenuToggle from '../hooks/useSubMenuToggle';
 import useSidebarMenu from '../hooks/useSidebarMenu';
-import logoBlue from "@/assets/img/logo-blue.png";
-import logoLightSolid from "@/assets/img/logo-light-solid.png";
+import logoBlue from "@/assets/img/logo.png";
+import logoLightSolid from "@/assets/img/logo.png";
 
 const HeaderStyle6 = () => {
 

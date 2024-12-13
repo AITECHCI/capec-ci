@@ -11,9 +11,8 @@ function useStickyMenu(offset = 5) {
 
         window.addEventListener('scroll', handleScroll);
 
-        return (
-
-        ) => {
+        // Fonction de nettoyage pour retirer l'écouteur d'événements
+        return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [offset]);
@@ -21,4 +20,4 @@ function useStickyMenu(offset = 5) {
     return isSticky;
 }
 
-export default useStickyMenu
+export default useStickyMenu;

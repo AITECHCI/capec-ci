@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
@@ -22,6 +23,7 @@
     "react-rangeslider": "^2.2.0",
     "react-simple-scroll-up": "^0.2.3",
     "react-toastify": "^10.0.5",
+    "sharp": "^0.33.5",
     "swiper": "^11.1.4",
     "wowjs": "^1.1.3"
   },

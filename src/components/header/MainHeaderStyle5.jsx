@@ -3,8 +3,8 @@ import React from 'react';
 import MainMenu from './MainMenu';
 import Link from 'next/link';
 import Image from 'next/image';
-import logoLightSolid from "@/assets/img/logo-light-solid.png"
-import logoSolar from "@/assets/img/logo-solar.png"
+import logoLightSolid from "@/assets/img/logo.png"
+import logoSolar from "@/assets/img/logo.png"
 import logo from "@/assets/img/logo.png"
 import useStickyMenu from '../hooks/useStickyMenu';
 import useSubMenuToggle from '../hooks/useSubMenuToggle';

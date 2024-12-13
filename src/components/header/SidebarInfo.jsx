@@ -2,7 +2,7 @@
 import React from 'react';
 import SocialShare from '../utilities/SocialShare';
 import Link from 'next/link';
-import logoLightBlue from "@/assets/img/logo-light-blue.png"
+import logoLightBlue from "@/assets/img/logo.png"
 import { toast } from 'react-toastify';
 import Image from 'next/image';
 

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import shape7 from '@/assets/img/shape/7.png';
 import shape9 from '@/assets/img/shape/9.png';
-import logoLight from '@/assets/img/logo-light.png';
+import logoLight from '@/assets/img/logo.png';
 import Link from 'next/link';
 import SocialShare from '../utilities/SocialShare';
 import FooterNewsLetter from '../form/FooterNewsLetter';
@@ -110,7 +110,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <a href="https://themeforest.net/user/validthemes/portfolio" target='_blank'>validthemes</a></p>
+                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <a href="https://themeforest.net/user/validthemes/portfolio" target='_blank'>CAPEC</a></p>
                             </div>
                             <div className="col-lg-6 text-end">
                                 <ul>
