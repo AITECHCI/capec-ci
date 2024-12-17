@@ -1,14 +1,14 @@
 "use client"
-import LayoutStyle7 from '@/components/Layouts/LayoutStyle7';
+import LayoutStyle from '@/components/Layouts/LayoutStyle';
 import ErrorPageContent from '@/components/NotFound/ErrorPageContent';
 import React from 'react';
 
 const ErrorPage = () => {
     return (
         <>
-            <LayoutStyle7 breadCrumb="error" title="Error">
+            <LayoutStyle breadCrumb="error" title="Error">
                 <ErrorPageContent />
-            </LayoutStyle7>
+            </LayoutStyle>
         </>
     );
 };

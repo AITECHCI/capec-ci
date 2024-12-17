@@ -1,4 +1,4 @@
-import LayoutStyle7 from '@/components/Layouts/LayoutStyle7';
+import LayoutStyle from '@/components/Layouts/LayoutStyle';
 import ContactMap from '@/components/contact/ContactMap';
 import ContactUsContent from '@/components/contact/ContactUsContent';
 import React from 'react';
@@ -10,10 +10,10 @@ export const metadata = {
 const ContactUs = () => {
     return (
         <>
-            <LayoutStyle7 breadCrumb="contact-us" title="Contact Us">
+            <LayoutStyle breadCrumb="contact-us" title="Contact Us">
                 <ContactUsContent />
                 <ContactMap />
-            </LayoutStyle7>
+            </LayoutStyle>
         </>
     );
 };

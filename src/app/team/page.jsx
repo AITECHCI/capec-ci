@@ -1,4 +1,4 @@
-import LayoutStyle7 from '@/components/Layouts/LayoutStyle7';
+import LayoutStyle from '@/components/Layouts/LayoutStyle';
 import TeamStyle1 from '@/components/team/TeamStyle1';
 import React from 'react';
 
@@ -9,9 +9,9 @@ export const metadata = {
 const TeamPage = () => {
     return (
         <>
-            <LayoutStyle7 breadCrumb="team" title="Team Members">
+            <LayoutStyle breadCrumb="team" title="Team Members">
                 <TeamStyle1 fullTeam={true} sectionClass="bg-gray" />
-            </LayoutStyle7>
+            </LayoutStyle>
         </>
     );
 };

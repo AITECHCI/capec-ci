@@ -1,7 +1,7 @@
 import TeamDetailsContent from '@/components/team/TeamDetailsContent';
 import React from 'react';
 import TeamData from '@/assets/jsonData/team/TeamData.json';
-import LayoutStyle7 from '@/components/Layouts/LayoutStyle7';
+import LayoutStyle from '@/components/Layouts/LayoutStyle';
 
 export const metadata = {
     title: "capec-ci - Consulting Business - Team Details"
@@ -14,9 +14,9 @@ const TeamDetails = ({ params }) => {
 
     return (
         <>
-            <LayoutStyle7 breadCrumb="Team-details" title="Team Details">
+            <LayoutStyle breadCrumb="Team-details" title="Team Details">
                 <TeamDetailsContent teamInfo={data} />
-            </LayoutStyle7>
+            </LayoutStyle>
         </>
     );
 };

@@ -11,20 +11,26 @@ const Loading = () => {
                             <span data-text-preloader="C" className="letters-loading">
                                 C
                             </span>
-                            <span data-text-preloader="O" className="letters-loading">
-                                A
-                            </span>
-                            <span data-text-preloader="N" className="letters-loading">
-                                N
-                            </span>
-                            <span data-text-preloader="S" className="letters-loading">
-                                S
-                            </span>
-                            <span data-text-preloader="U" className="letters-loading">
-                                U
-                            </span>
                             <span data-text-preloader="A" className="letters-loading">
                                 A
+                            </span>
+                            <span data-text-preloader="P" className="letters-loading">
+                                P
+                            </span>
+                            <span data-text-preloader="E" className="letters-loading">
+                                E
+                            </span>
+                            <span data-text-preloader="C" className="letters-loading">
+                                C
+                            </span>
+                            <span data-text-preloader="-" className="letters-loading">
+                                -
+                            </span> 
+                            <span data-text-preloader="C" className="letters-loading">
+                                C
+                            </span>                            
+                            <span data-text-preloader="I" className="letters-loading">
+                                I
                             </span>
                         </div>
                     </div>
