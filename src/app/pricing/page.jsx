@@ -5,7 +5,7 @@ import TestimonialStyle1 from '@/components/testimonial/TestimonialStyle1';
 import React from 'react';
 
 export const metadata = {
-    title: "capec-ci - Consulting Business - Pricing"
+    title: "capec-ci - Pricing"
 }
 
 const PricingPage = () => {

@@ -3,7 +3,7 @@ import FaqStyle2 from '@/components/faq/FaqStyle2';
 import React from 'react';
 
 export const metadata = {
-    title: "capec-ci - Consulting Business - Faq"
+    title: "capec-ci - Faq"
 }
 
 const FaqPage = () => {

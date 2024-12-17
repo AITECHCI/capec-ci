@@ -1,16 +1,18 @@
 import LayoutStyle from '@/components/Layouts/LayoutStyle';
-import BlogWithSidebarContent from '@/components/blog/BlogWithSidebarContent';
+import Blog from '@/components/blog/Blog';
+import BreadCrumb from '@/components/breadCrumb/BreadCrumb'; // Vérifie cette importation
 import React from 'react';
 
 export const metadata = {
-    title: "capec-ci - Consulting Business - Blog With Sidebar"
+    title: "capec-ci - Blog"
 }
 
 const BlogWithSidebarPage = () => {
     return (
         <>
-            <LayoutStyle breadCrumb="blog-with-sidebar" title="Blog With Sidebar">
-                <BlogWithSidebarContent />
+            <LayoutStyle>
+                <BreadCrumb breadCrumb="Blog" title="Blog" />
+                <Blog />
             </LayoutStyle>
         </>
     );

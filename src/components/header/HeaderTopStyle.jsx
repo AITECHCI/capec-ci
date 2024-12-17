@@ -1,7 +1,7 @@
 import React from 'react';
 import SocialShare from '../utilities/SocialShare';
 
-const HeaderTopStyle1 = () => {
+const HeaderTopStyle = () => {
     return (
         <>
             <div className="top-bar-area top-bar-style-one bg-dark text-light">
@@ -32,4 +32,4 @@ const HeaderTopStyle1 = () => {
     );
 };
 
-export default HeaderTopStyle1;
+export default HeaderTopStyle;

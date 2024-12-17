@@ -4,7 +4,7 @@ import React from 'react';
 import Project2Data from '@/assets/jsonData/project/Project2Data.json'
 
 export const metadata = {
-    title: "capec-ci - Consulting Business - Project Details"
+    title: "capec-ci - Project Details"
 }
 
 const ProjectDetailsPage = ({ params }) => {

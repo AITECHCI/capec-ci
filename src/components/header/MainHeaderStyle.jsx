@@ -9,7 +9,7 @@ import useSidebarMenu from '../hooks/useSidebarMenu';
 import Image from 'next/image';
 import logo from '@/assets/img/logo.png';
 
-const MainHeaderStyle1 = () => {
+const MainHeaderStyle = () => {
 
     const isMenuSticky = useStickyMenu();
     const toggleSubMenu = useSubMenuToggle();
@@ -53,4 +53,4 @@ const MainHeaderStyle1 = () => {
     );
 };
 
-export default MainHeaderStyle1;
+export default MainHeaderStyle;
