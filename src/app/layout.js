@@ -25,7 +25,7 @@ const manrope = Manrope({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "capec-ci"
+  title: "CAPEC-CI : Cellule d'Analyse des Politiques Economiques du CIRES"
 }
 
 export default function RootLayout({ children }) {

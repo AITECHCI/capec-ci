@@ -12393,3 +12393,33 @@ ul.list-regular li::after {
 	position: relative;
 	top: 3px;
 }
+ /**/
+ .dropdown-menu.multi-column {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .multi-column-dropdown {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%; /* Assurez-vous que les ul prennent toute la largeur */
+  }
+  
+  .multi-column-dropdown li {
+	padding: 8px 12px;
+  }
+  
+  .mtitle {
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .dropdown-item {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  .dropdown-item:hover {
+	background-color: #f0f0f0; /* Couleur de fond au survol */
+  }
