@@ -22392,7 +22392,7 @@ Description:
 Version: 1.0
 
 Main Font    : Outfit
-Main Color   : #DF0A0A
+Main Color   : #fd7e14
 
 -------------------------------------
 
@@ -22479,7 +22479,7 @@ Sidebar heading:  20px 'Outfit', sans-serif
 	--dark-secondary: #022b6d;
 	--dark-optional: #3e00a7;
 	--white: #ffffff;
-	--color-primary: #DF0A0A;
+	--color-primary: #fd7e14;
 	--color-secondary: #0b57e3;
 	--color-optional: #57B33E;
 	--color-heading: #0e0e0e;
@@ -22491,7 +22491,7 @@ Sidebar heading:  20px 'Outfit', sans-serif
 	--bg-gradient: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-primary) 100%);
 	--bg-gradient-secondary: linear-gradient(90deg, var(--color-secondary) 40%, var(--dark-secondary) 100%);
 	--bg-gradient-reverse: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-	--gradient-bg: linear-gradient(90deg, #DF0A0A 0%, #930707 100%);
+	--gradient-bg: linear-gradient(90deg, #fd7e14 0%, #9f4a05 100%);
 	--bg-gradient-optional: linear-gradient(90deg, #57B33E 50%, #b59f11 100%);
 }
 
@@ -23328,7 +23328,7 @@ p {
 }
 
 .bg-dark .sub-heading {
-	background: linear-gradient(90deg, #df0a0a 0%, #7c00ff 100%);
+	background: linear-gradient(90deg, #fd7e14 0%, #7c00ff 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -29567,7 +29567,7 @@ form.seo-form input:-moz-placeholder {
 	content: "";
 	height: 100%;
 	width: 100%;
-	background: url(/_next/static/media/26.d4efb721.png);
+	background: url(/_next/static/media/26.d9076185.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: top left;
