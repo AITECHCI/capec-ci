@@ -27447,7 +27447,7 @@ p {
 	content: "";
 	height: 100%;
 	width: 110%;
-	background: url(/_next/static/media/14.2ba593f3.png);
+	background: url(/_next/static/media/14.a0e183e3.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -34324,32 +34324,37 @@ ul.list-regular li::after {
 	top: 3px;
 }
  /**/
- .dropdown-menu.multi-column {
-	display: flex;
-	flex-wrap: wrap;
+ .dropdown-menu {
+	display: flex; /* Utilisation de flexbox */
+	flex-wrap: wrap; /* Permet d'afficher plusieurs lignes si nécessaire */
+	width: auto; /* Largeur automatique pour s'adapter au contenu */
+	min-width: 400px; /* Largeur minimale pour le menu */
+  }
+  
+  .multi-column {
+	padding: 10px; /* Espace autour des colonnes */
   }
   
   .multi-column-dropdown {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	width: 100%; /* Assurez-vous que les ul prennent toute la largeur */
+	list-style: none; /* Suppression des puces */
+	padding: 0; /* Suppression du padding par défaut */
   }
   
-  .multi-column-dropdown li {
-	padding: 8px 12px;
+  .row {
+	display: flex; /* Assurer que les colonnes s'affichent côte à côte */
+  }
+  
+  .col-md-6 {
+	flex: 0 0 50%; /* Chaque colonne prend 50% de la largeur */
+	max-width: 50%; /* Largeur maximale de la colonne */
   }
   
   .mtitle {
-	font-weight: bold;
-	margin-bottom: 10px;
+	font-weight: bold; /* Titre en gras */
+	margin-bottom: 5px; /* Espace sous le titre */
   }
   
-  .dropdown-item {
-	text-decoration: none;
-	color: #333;
-  }
-  
-  .dropdown-item:hover {
-	background-color: #f0f0f0; /* Couleur de fond au survol */
+  .multi-column-dropdown li {
+	white-space: nowrap; /* Empêche le texte de se casser */
+	margin-bottom: 5px; /* Espace entre les items */
   }
