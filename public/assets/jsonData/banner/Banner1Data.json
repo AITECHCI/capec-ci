@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "bgThumb": "1.jpg",
+        "title": "Economiste Américain (Prix Nobel d'économie 2017)",
+        "title1": "Richard Thaler",
+        "title2": "Nous avons besoin, en économie, d'une approche qui reconnaissel'existence des humains.",
+        "Image" :"",
+        "btnText": "CONTACTEZ-NOUS",
+        "shapeThumb": "4.png",
+        "videoId": "owhuBrGIOsEdsk"
+    },
+    {
+        "id": 2,
+        "bgThumb": "6.jpg",
+        "title": "Diplomate, économiste (1938-2018)",
+        "title1": "KOFI ANNAN",
+        "title2": "La paix, la tolérance, le respect mutuel, les droits de l'homme, l'état de droit et l'économie mondiale ont tous également souffert des actes terroristes.",
+        "Image" :"",
+        "btnText": "CONTACTEZ-NOUS",
+        "shapeThumb": "4.png",
+        "videoId": "owhuBrGIOsEdsk"
+    }
+]

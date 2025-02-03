@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],               // Pour les composants, pages, etc.
+      "@/assets/*": ["public/assets/*"] // Pour les fichiers dans le dossier assets
+    }
+  }
+}
