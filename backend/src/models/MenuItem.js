@@ -1,10 +1,7 @@
 // models/MenuItem.js
 
-const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = new Sequelize('votre_base_de_données', 'utilisateur', 'mot_de_passe', {
-    host: 'localhost',
-    dialect: 'postgres', // ou 'mysql', 'sqlite', etc.
-});
+const { DataTypes } = require('sequelize');
+const sequelize = require('../config/db');
 
 const MenuItem = sequelize.define('MenuItem', {
     id: {
@@ -26,19 +23,13 @@ const MenuItem = sequelize.define('MenuItem', {
     },
     is_dropdown: {
         type: DataTypes.BOOLEAN,
-        allowNull: false,
-    },
-    created_at: {
-        type: DataTypes.DATE,
-        defaultValue: DataTypes.NOW,
-    },
-    updated_at: {
-        type: DataTypes.DATE,
-        defaultValue: DataTypes.NOW,
+        defaultValue: false,
     },
 }, {
     tableName: 'menu_items',
-    timestamps: false, // Si vous gérez les timestamps manuellement
+    timestamps: true,
+    createdAt: 'created_at',
+    updatedAt: 'updated_at',
 });
 
 module.exports = MenuItem;
