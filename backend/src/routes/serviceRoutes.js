@@ -7,7 +7,7 @@ const router = express.Router();
 // Obtenir tous les services avec pagination
 router.get('/', async (req, res) => {
     const { page = 1, limit = 10 } = req.query;
-    const offset = (page - 1) * limit; // Calculer l'offset
+    const offset = (parseInt(page) - 1) * parseInt(limit); // Calculer l'offset
 
     try {
         const { rows } = await pool.query(
@@ -26,7 +26,7 @@ router.get('/', async (req, res) => {
             services: rows,
         });
     } catch (err) {
-        console.error(err.message);
+        console.error('Erreur dans la requête :', err.message);
         res.status(500).send('Erreur serveur');
     }
 });
@@ -46,7 +46,7 @@ router.get('/search', async (req, res) => {
         );
         res.json(rows);
     } catch (err) {
-        console.error(err.message);
+        console.error('Erreur dans la requête :', err.message);
         res.status(500).send('Erreur serveur');
     }
 });
@@ -78,7 +78,7 @@ router.post(
             );
             res.status(201).json(newService[0]);
         } catch (err) {
-            console.error(err.message);
+            console.error('Erreur dans la requête :', err.message);
             res.status(500).send('Erreur serveur');
         }
     }
