@@ -7,7 +7,7 @@ import PartnerStyle1 from '@/components/partner/PartnerStyle1';
 import ProcessStyle1 from '@/components/process/ProcessStyle1';
 import ProjectStyle1 from '@/components/project/ProjectStyle1';
 import RequestCallStyle1 from '@/components/request/RequestCallStyle1';
-import ServicesStyle1 from '@/components/services/ServicesStyle';
+import Services from '@/components/services/Services';
 import TeamStyle1 from '@/components/team/TeamStyle1';
 import TestimonialStyle1 from '@/components/testimonial/TestimonialStyle1';
 import React from 'react';
@@ -21,8 +21,7 @@ const Home = () => {
         <>
             <LayoutStyle>
                 <BannerStyle />
-                <AboutStyle />
-                <ServicesStyle1 />
+                <Services />
                 <ProcessStyle1 />
                 <ChooseStyle1 />
                 <PartnerStyle1 sectionClass="default-padding" />

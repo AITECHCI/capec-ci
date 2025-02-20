@@ -1,4 +1,4 @@
-// File: C:\Users\HP\Documents\MEGA\MEGA\NovisCoworking\capec-ci\frontend\src\app\[...not-found]\page.jsx
+// File: C:\Users\aitec\Documents\GIT\capec-ci\frontend\src\app\[...not-found]\page.jsx
 import * as entry from '../../../../src/app/[...not-found]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

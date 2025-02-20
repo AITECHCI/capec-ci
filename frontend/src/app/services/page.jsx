@@ -1,5 +1,5 @@
 import LayoutStyle from '@/components/Layouts/LayoutStyle';
-import ServicesStyle from '@/components/services/ServicesStyle';
+import Services from '@/components/services/Services';
 import ProcessStyle1 from '@/components/process/ProcessStyle1';
 import PartnerStyle1 from '@/components/partner/PartnerStyle1';
 import TeamStyle1 from '@/components/team/TeamStyle1';
@@ -17,7 +17,7 @@ const ServicesPage = () => {
         <>
             <LayoutStyle>
                 <BreadCrumb breadCrumb="Services" title="Our Services" />
-                <ServicesStyle />
+                <Services/>
                 <ProcessStyle1 />
                 <PartnerStyle1 sectionClass="default-padding bg-gray" />
                 <TeamStyle1 teamTitle={true} />
