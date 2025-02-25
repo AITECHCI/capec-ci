@@ -1,3 +1,5 @@
+'use client'; // Ajoutez cette ligne en haut de votre fichier
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/css';
 import 'swiper/css/bundle';
@@ -5,28 +7,29 @@ import 'react-modal-video/css/modal-video.css';
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-photo-view/dist/react-photo-view.css';
 import 'react-circular-progressbar/dist/styles.css';
-import 'react-rangeslider/lib/index.css'
+import 'react-rangeslider/lib/index.css';
 
 import '@/assets/css/animate.css';
 import '@/assets/css/font-awesome.min.css';
 import '@/assets/css/flaticon-set.css';
-
 import '@/assets/css/nice-select.css';
 import '@/assets/css/validnavs.css';
 import '@/assets/css/helper.css';
 import '@/assets/css/unit-test.css';
 import '@/assets/css/style.css';
 
-import Dependency from '@/components/utilities/Dependency';
+import Dependency from '@/components/Client/utilities/Dependency';
 import { ToastContainer } from 'react-toastify';
 import { Manrope, Outfit } from "next/font/google";
+import { AuthProvider } from '@/context/AuthContext';
 
 const manrope = Manrope({ subsets: ["latin"] });
 const outfit = Outfit({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "CAPEC-CI : Cellule d'Analyse des Politiques Economiques du CIRES"
-}
+// Retirer l'exportation de metadata
+// export const metadata = {
+//   title: "CAPEC-CI : Cellule d'Analyse des Politiques Economiques du CIRES"
+// }
 
 export default function RootLayout({ children }) {
   return (
@@ -34,7 +37,7 @@ export default function RootLayout({ children }) {
       <body className={`${outfit.className} ${manrope.className}`}>
         <ToastContainer />
         <Dependency />
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

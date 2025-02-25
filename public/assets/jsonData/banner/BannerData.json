@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "bgThumb": "1.jpg",
+        "title": "",
+        "title1": "",
+        "title2": "",
+        "Image" :"1.jpg",
+        "btnText": "",
+        "shapeThumb": "4.png",
+        "videoId": "owhuBrGIOsEdsk"
+    },
+    {
+        "id": 2,
+        "bgThumb": "6.jpg",
+        "title": "",
+        "title1": "",
+        "title2": "",
+        "Image" :"",
+        "btnText": "",
+        "shapeThumb": "4.png",
+        "videoId": "owhuBrGIOsEdsk"
+    }
+]

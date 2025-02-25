@@ -1,0 +1,14 @@
+{
+    "build": {
+      "env": {
+        "DATABASE_URL": "@database_url",
+        "NEXTAUTH_SECRET": "@nextauth_secret"
+      }
+    },
+    "routes": [
+      {
+        "src": "/admin/(.*)",
+        "dest": "/admin/index.html"
+      }
+    ]
+  }
